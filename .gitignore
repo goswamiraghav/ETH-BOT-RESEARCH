@@ -1,0 +1,22 @@
+# Data
+*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+*.env
+.env.*
+
+# Output folders
+paper_outputs/
+
+# Files with sensitive names (keys, tokens, secrets)
+*key*
+*token*
+*secret*
+
+# JSON files that may contain credentials
+*.json
