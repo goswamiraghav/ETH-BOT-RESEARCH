@@ -1,0 +1,19 @@
+Technical indicators applied in isolation on short
+cryptocurrency timeframes generate high-frequency but
+low-precision trading signals, resulting in poor
+risk-adjusted performance. This paper introduces and
+evaluates a multi-timeframe (MTF) confirmation framework
+in which a 5-minute entry signal is only executed when the
+most recent 15-minute bar independently satisfies its own
+signal conditions. We backtest the system on one year of
+ETH/USDT OHLCV data (April 2025--April 2026) sourced from
+KuCoin. The standalone 5-minute strategy produces 1,969
+trades with a profit factor of 0.106 and a maximum
+drawdown of 99.17%. MTF confirmation reduces the trade
+count to 9 while improving the profit factor to 0.722 and
+the maximum drawdown to 1.46%. A one-sample t-test on
+the MTF returns yields p = 0.687, confirming that the
+sample is too small for statistical inference. We conclude
+that MTF confirmation is structurally sound as a noise-filtering
+mechanism but requires a multi-year dataset before rigorous
+validation is possible.
